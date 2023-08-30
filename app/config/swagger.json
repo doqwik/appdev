@@ -1,0 +1,111 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "DoQwik LMS",
+    "version": "1.0.0",
+    "title": "Klean LMS",
+    "termsOfService": "https://www.daffodilsw.com/",
+    "contact": {
+      "email": "afsar.ali@algosoft.co"
+    },
+    "license": {
+      "name": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  },
+  "host": "localhost:80",
+  "basePath": "/api/v1",
+  "tags": [
+    {
+      "name": "health check",
+      "description": "Check the health of server, db etc.",
+      "externalDocs": {
+        "description": "Find out more",
+        "url": "https://www.daffodilsw.com/"
+      }
+    }
+  ],
+  "schemes": [
+    "http",
+    "https"
+  ],
+  "paths": {
+    "/monitor/ping": {
+      "get": {
+        "tags": [
+          "health check"
+        ],
+        "summary": "Check the server health.",
+        "description": "Check the server health.",
+        "operationId": "serverHealthCheck",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Server is up.",
+            "schema": {
+              "$ref": "#/definitions/ApiResponseSuccess"
+            }
+          },
+          "400": {
+            "description": "Some error occured while starting server.",
+            "schema": {
+              "$ref": "#/definitions/ApiResponseFail"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "ApiResponseSuccess": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "boolean",
+          "description": "Api success status."
+        },
+        "statusCode": {
+          "type": "string",
+          "description": "Api status code"
+        },
+        "statusMessage": {
+          "type": "string",
+          "description": "Api status msg"
+        },
+        "response": {
+          "type": "object",
+          "description": "Api Response"
+        }
+      }
+    },
+    "ApiResponseFail": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "boolean",
+          "description": "Api fail status.",
+          "example": false
+        },
+        "statusCode": {
+          "type": "string",
+          "description": "Api status code"
+        },
+        "statusMessage": {
+          "type": "string",
+          "description": "Api status msg"
+        },
+        "response": {
+          "type": "object",
+          "description": "Error"
+        }
+      }
+    }
+  },
+  "externalDocs": {
+    "description": "Find out more about Swagger",
+    "url": "http://swagger.io"
+  }
+}

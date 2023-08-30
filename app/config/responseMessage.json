@@ -1,0 +1,683 @@
+{
+    "APP_MESSAGES": {
+        "SUCCESS": {
+            "errorCode": "success",
+            "message": "Success",
+            "statusCode": 200
+        },
+        "ERROR_VALIDATION": {
+            "errorCode": "requestParamsNotComplete",
+            "message": "Validation Error",
+            "statusCode": 400
+        },
+        "ERROR_SERVER_ERROR": {
+            "errorCode": "serverError",
+            "message": "Server Error",
+            "statusCode": 500
+        },
+        "ERROR_DATA_NOT_FOUND": {
+            "errorCode": "dataNotFound",
+            "message": "No data found",
+            "statusCode": 404
+        },
+        "SERVICES_EMPTY": {
+            "errorCode": "serviceempty",
+            "message": "Service Empty",
+            "statusCode": 404
+        },
+       
+        "PROFILE_PIC_EMPTY": {
+            "errorCode": "profilepicempty",
+            "message": "Profile Pic Empty",
+            "statusCode": 404
+        },
+        "ADDRESS_ID_EMPTY": {
+            "errorCode": "addressidempty",
+            "message": "Address Id Empty",
+            "statusCode": 404
+        },
+        "ERROR_SLOT_DATA_NOT_FOUND": {
+            "errorCode": "slotdatanotfound",
+            "message": "Please Add  Slot Details ",
+            "statusCode": 404
+        },
+         "PRICE_EMPTY": {
+            "errorCode": "priceempty",
+            "message": "Price Empty",
+            "statusCode": 404
+        },
+        "ORDER_ID_EMPTY": {
+            "errorCode": "orderidempty",
+            "message": "Order Id Empty",
+            "statusCode": 404
+        },
+        "PAYMENT_TYPE_EMPTY": {
+            "errorCode": "paymenttypeempty",
+            "message": "Payment Type Empty",
+            "statusCode": 404
+        },
+        "ERROR_WORK_GALLAY_NOT_FOUND": {
+            "errorCode": "workgallarynotfound",
+            "message": "Work Gallary not Found",
+            "statusCode": 404
+        },
+        "ERROR_SERVICE_NOT_FOUND": {
+            "errorCode": "servicenotfound",
+            "message": "Service not Found",
+            "statusCode": 404
+        },
+        
+        "SLOT_ID_EMPTY": {
+            "errorCode": "slotidempty",
+            "message": "Slot Id is  Empty",
+            "statusCode": 404
+        },
+        "REVIEW_EMPTY": {
+            "errorCode": "reviewempty",
+            "message": "Review is  Empty",
+            "statusCode": 404
+        },
+        "STAR_EMPTY": {
+            "errorCode": "starempty",
+            "message": "star is Empty",
+            "statusCode": 404
+        },
+        "WORKER_ID_EMPTY": {
+            "errorCode": "workeridempty",
+            "message": "Worker Id Empty",
+            "statusCode": 404
+        },
+        "COMPANY_NOT_FOUND": {
+            "errorCode": "useridwrong",
+            "message": "User Id Wrong",
+            "statusCode": 404
+        },
+        "INVALID_USER_TYPE": {
+            "errorCode": "usertypewrong",
+            "message": "User Type Wrong",
+            "statusCode": 404
+        },
+        "USER_TYPE_EMPTY": {
+            "errorCode": "usertypeempty",
+            "message": "User Type Empty",
+            "statusCode": 404
+        },
+        "ERROR_INVALID_WORKER_ID": {
+            "errorCode": "workernotfound",
+            "message": "Worker not found this service",
+            "statusCode": 404
+        },
+        "FINISH_JOB_EMPTY": {
+            "errorCode": "finishjobempty",
+            "message": "Finish job is empty",
+            "statusCode": 404
+        },
+        "JOB_LOCATION_EMPTY": {
+            "errorCode": "joblocationempty",
+            "message": "Job Location is empty",
+            "statusCode": 404
+        },
+        "CODE_EMPTY": {
+            "errorCode": "codeempty",
+            "message": "Job code is empty",
+            "statusCode": 404
+        },
+        "JOB_PIC_EMPTY": {
+            "errorCode": "jobpicempty",
+            "message": "First/Second  Image Empty",
+            "statusCode": 404
+        },
+        "ERROR_CODE_NOT_FOUND": {
+            "errorCode": "jobcodeempty",
+            "message": "Wrong Code",
+            "statusCode": 404
+        },
+        "BEFORE_WORK_PIC_EMPTY": {
+            "errorCode": "beforeworkpicempty",
+            "message": "Before/After Work Image Empty",
+            "statusCode": 404
+        },
+        "START_JOB_EMPTY": {
+            "errorCode": "startjobempty",
+            "message": "Start job is empty ",
+            "statusCode": 404
+        },
+        "AFTER_WORK_PIC_EMPTY": {
+            "errorCode": "afterworkpicempty",
+            "message": "After Work Image empty ",
+            "statusCode": 404
+        },
+        "ERROR_UNSUPPORTED_SERVICE": {
+            "errorCode": "unsupportedService",
+            "message": "Service not supported",
+            "statusCode": 404
+        },
+        "ERROR_CONNECTION_TIMEOUT": {
+            "errorCode": "connectionTimeout",
+            "message": "Not able to connect to client",
+            "statusCode": 500
+        },
+        "DATABASE_ERROR" : {
+            "errorCode" : "databaseError",
+            "message"   : "Not able to connect to client",
+            "statusCode": 502
+        },
+        "ERROR_COLLECTION_NOT_EXISTS" : {
+            "errorCode" : "collectionNotExists",
+            "message"   : "Collection does not exists",
+            "statusCode": 400
+        },
+        "INVALID_FILE_TYPE": {
+            "errorCode" : "invalidFileType",
+            "message"   : "Invalid file type",
+            "statusCode": 400
+        },
+        "ERROR_FILE_NOT_FOUND": {
+            "errorCode": "fileNotFound",
+            "message": "No file found",
+            "statusCode": 404
+        },
+        "ERROR_INVALID_USER_ID": {
+            "errorCode": "invalidUserId",
+            "message": "Invalid user id",
+            "statusCode": 400
+        },
+        "ERROR_INVALID_USER_OTP": {
+            "errorCode": "invalidUserId",
+            "message": "Invalid OTP",
+            "statusCode": 400
+        },
+        "ERROR_INVALID_ID": {
+            "errorCode": "invalidId",
+            "message": "Invalid id",
+            "statusCode": 400
+        },
+        "ERROR_INVALID_MONGO_ID": {
+            "errorCode": "invalidMongoId",
+            "message": "Invalid mongo id",
+            "statusCode": 400
+        },
+        "ERROR_TOKEN_REQUIRED": {
+            "errorCode": "tokenIsRequired",
+            "message": "Token required",
+            "statusCode": 400
+        },
+        "INSUFFICIENT_BALANCE": {
+            "errorCode": "insufficientBalance",
+            "message": "Insufficient Balance",
+            "statusCode": 403
+          },
+        "NOT_ALLOWED": {
+            "errorCode": "NOT_ALLOWED",
+            "message": "Operation not allowed.",
+            "statusCode": 403
+        },
+        "UNAUTHORIZED": {
+            "errorCode": "UNAUTHORIZED",
+            "message": "Unauthorized access.",
+            "statusCode": 401
+        },
+        "ERROR_INVALID_OFFER_CODE": {
+            "errorCode": "invalidOfferCode",
+            "message": "Invalid offer code",
+            "statusCode": 403
+        },
+        "ERROR_OFFER_LIMIT_EXCEEDED": {
+            "errorCode": "offerLimitExceeded",
+            "message": "Offer limit exceeded",
+            "statusCode": 403
+        },
+        "USERNOT_FOUND": {
+            "errorCode": "userNotFound",
+            "message": "User not found",
+            "statusCode": 404
+        },
+        "ERROR_WORKER_SERVICE_NOT_FOUND": {
+            "errorCode": "workerserviceNotFound",
+            "message": "Worker Service not found",
+            "statusCode": 404
+        },
+        "ERROR_WORKER_GALLARY_NOT_FOUND": {
+            "errorCode": "workergallaryNotFound",
+            "message": "Worker Gallary not found",
+            "statusCode": 404
+        },
+        "ERROR_WORKER_FEEDBACK_NOT_FOUND": {
+            "errorCode": "workerfeedbackNotFound",
+            "message": "Worker Feedback not found",
+            "statusCode": 404
+        },
+        "ORDER_STATUS_EMPTY": {
+            "errorCode": "orderstatusempty",
+            "message": "Order Status Empty",
+            "statusCode": 404
+        },
+        "CATEGORY_EMPTY": {
+            "errorCode": "cateroryempty",
+            "message": "Category Empty",
+            "statusCode": 404
+        },
+        "FEEDBACK_ID_EMPTY": {
+            "errorCode": "feedbackidempty",
+            "message": "Feedback Id Empty",
+            "statusCode": 404
+        },
+        "ERROR_WORKER_NOT_FOUND": {
+            "errorCode": "workerNotFound",
+            "message": "Worker not found",
+            "statusCode": 404
+        },
+        "ERROR_SERVICES_NOT_FOUND": {
+            "errorCode": "serviceNotFound",
+            "message": "Services not found",
+            "statusCode": 404
+        },
+        "USER_ID_EMPTY": {
+            "errorCode": "userIdempty",
+            "message": "User Id Empty",
+            "statusCode": 404
+        },
+        "USER_NOT_FOUND": {
+            "errorCode": "userNotFound",
+            "message": "User not found",
+            "statusCode": 404
+        },
+        "ERROR_USER_NOT_FOUND": {
+            "errorCode": "userNotFound",
+            "message": "User not found",
+            "statusCode": 404
+        },
+        "ERROR_OFFER_EXPIRED": {
+            "errorCode": "offerExpired",
+            "message": "Offer expired",
+            "statusCode": 403
+        },
+        "TELEMATICS_NOT_ENABLED": {
+            "errorCode": "telematicsNotEnabled",
+            "message": "Telematics Not Enabled",
+            "statusCode": 400
+        },
+        "TELEMATICS_SERVER_ERROR": {
+            "errorCode": "telematicsServerError",
+            "message": "Telematics Server Error",
+            "statusCode": 500
+        },
+        "TELEMATICS_USER_NOT_FOUND": {
+            "errorCode": "telematicsUserNotFound",
+            "message": "Telematics User Not Found",
+            "statusCode": 404
+        },
+        "ERROR_INVALID_INPUT_NUMBER": {
+            "errorCode": "invalidinputnumber",
+            "message": "Please enter a valid number",
+            "statusCode": 400
+        },
+        "TRACKING_PERMISSION_INACTIVATED": {
+            "errorCode": "trackingPermissionInactivated",
+            "message": "Tracking permission inactivated",
+            "statusCode": 400
+        },
+        "ERROR_INVALID_CREDENTIAL": {
+            "errorCode": "invalidCredential",
+            "message": "Invalid Credential",
+            "statusCode": 400
+        },
+        "ERROR_INVALID_EMAILADDRESS": {
+            "errorCode": "invalidEmailAddress",
+            "message": "Invalid Email Address",
+            "statusCode": 400
+        },
+        "ERROR_INVALID_MOBILENUMBER": {
+            "errorCode": "invalidMobileNumber",
+            "message": "Invalid Mobile Numberr",
+            "statusCode": 400
+        },
+        "REQUEST_ALREADY_SENT": {
+            "errorCode": "requestalreadysent",
+            "message": "Request already sent try after sometime.",
+            "statusCode": 400
+        },
+        "INVALID_COUPON_CODE": {
+            "errorCode": "invalidcouponcode",
+            "message": "Invalid Coupon Code .",
+            "statusCode": 400
+        },
+        "TITLE_EMPTY": {
+            "errorCode": "titleempty",
+            "message": "Title is empty.",
+            "statusCode": 400
+        },
+        "ORDER_SEARCH_EMPTY": {
+            "errorCode": "ordersearchempty",
+            "message": "Order Search is empty.",
+            "statusCode": 400
+        },
+        "TEXT_EMPTY": {
+            "errorCode": "textempty",
+            "message": "Text is empty.",
+            "statusCode": 400
+        },
+        "IMAGE_EMPTY": {
+            "errorCode": "imageempty",
+            "message": "Image is empty.",
+            "statusCode": 400
+        },
+        "PHONE_EMPTY": {
+            "errorCode": "phoneempty",
+            "message": "Mobile number is empty.",
+            "statusCode": 400
+        },
+      
+        "COUPON_CODE_EMPTY": {
+            "errorCode": "couponcodeempty",
+            "message": "Coupon Code is empty.",
+            "statusCode": 400
+        },
+        "OTP_EMPTY": {
+            "errorCode": "phoneempty",
+            "message": "OTP can't be empty.",
+            "statusCode": 400
+        },
+        "FULLNAME_EMPTY": {
+            "errorCode": "fullnameempty",
+            "message": "Full Name is empty.",
+            "statusCode": 400
+        },
+        "EMAIL_EMPTY": {
+            "errorCode": "emailempty",
+            "message": "Email is empty.",
+            "statusCode": 400
+        },
+        "SERVICE_LOCATION_EMPTY": {
+            "errorCode": "servicelocationempty",
+            "message": "Service Location is empty.",
+            "statusCode": 400
+        },
+        "CANCEL_REASON_EMPTY": {
+            "errorCode": "cancelorderempty",
+            "message": "Total Cancel Reason is empty.",
+            "statusCode": 400
+        },
+       
+        "TOTAL_AMOUNT_EMPTY": {
+            "errorCode": "totalamountempty",
+            "message": "Total Amount is empty.",
+            "statusCode": 400
+        },
+        "DISCOUNT_EMPTY": {
+            "errorCode": "discounteempty",
+            "message": "Discount is empty.",
+            "statusCode": 400
+        }, 
+        "OTHER_CHARGE_EMPTY": {
+            "errorCode": "otherchargeeempty",
+            "message": "Other Charge is empty.",
+            "statusCode": 400
+        },
+        "AMOUNT_PAID_EMPTY": {
+            "errorCode": "amountpaidempty",
+            "message": "Amount Paid is empty.",
+            "statusCode": 400
+        },
+        "SERVICE_DATE_EMPTY": {
+            "errorCode": "servicedateempty",
+            "message": "Service date is empty.",
+            "statusCode": 400
+        },
+        "SERVICE_TIME_EMPTY": {
+            "errorCode": "servicetimeempty",
+            "message": "Service Time is empty.",
+            "statusCode": 400
+        },
+        "SERVICE_TYPE_EMPTY": {
+            "errorCode": "servicetypeempty",
+            "message": "Service Type is empty.",
+            "statusCode": 400
+        },
+        "JOB_DESC_EMPTY": {
+            "errorCode": "jobdescriptionempty",
+            "message": "Job   is empty.",
+            "statusCode": 400
+        },
+        "COUNTRY_EMPTY": {
+            "errorCode": "countryempty",
+            "message": "Country is empty.",
+            "statusCode": 400
+        },
+        "STATE_EMPTY": {
+            "errorCode": "stateempty",
+            "message": "State is empty.",
+            "statusCode": 400
+        },
+        "CITY_EMPTY": {
+            "errorCode": "cityempty",
+            "message": "City is empty.",
+            "statusCode": 400
+        },
+        "LANDMARK_EMPTY": {
+            "errorCode": "langmarkempty",
+            "message": "Land Mark is empty.",
+            "statusCode": 400
+        },
+        "POSTALCODE_EMPTY": {
+            "errorCode": "postalcodeempty",
+            "message": "Postal Code is empty.",
+            "statusCode": 400
+        },
+        "DOCUMENT_EMPTY": {
+            "errorCode": "documentrequired",
+            "message": "Document is required.",
+            "statusCode": 400
+        },
+        "COMPANYREGNO_EMPTY": {
+            "errorCode": "companyregistrationnumberrequired",
+            "message": "Company registration number is required.",
+            "statusCode": 400
+        },
+        "TINNUMBER_EMPTY": {
+            "errorCode": "tinnumberrequired",
+            "message": "TIN number is required.",
+            "statusCode": 400
+        },
+        "BANKACCOUNT_EMPTY": {
+            "errorCode": "bankaccountnumberrequired",
+            "message": "Bank A/C number is required.",
+            "statusCode": 400
+        },
+        "SERVICEID_EMPTY": {
+            "errorCode": "serviceidrequired",
+            "message": "Service ID is required.",
+            "statusCode": 400
+        },
+        "SUBSERVICEID_EMPTY": {
+            "errorCode": "subserviceidrequired",
+            "message": "Sub-Service ID is required.",
+            "statusCode": 400
+        },
+        "PLATFORM_EMPTY": {
+            "errorCode": "platformrequired",
+            "message": "Platform is required.",
+            "statusCode": 400
+        },
+        "IDENTIFICATIONTYPE_EMPTY": {
+            "errorCode": "identificationtyperequired",
+            "message": "Identification Type is required.",
+            "statusCode": 400
+        },
+        "IDENTIFICATIONNUMBER_EMPTY": {
+            "errorCode": "identificationnumberrequired",
+            "message": "Identification Number is required.",
+            "statusCode": 400
+        },
+        "COMPANYNOT_FOUND": {
+            "errorCode": "companynotfound",
+            "message": "Company not found.",
+            "statusCode": 400
+        },
+        "ALEREADY_SUBSCRIBED": {
+            "errorCode": "alreadysubscribed",
+            "message": "Already Subscribed.",
+            "statusCode": 400
+        },
+        "WORKERID_EMPTY": {
+            "errorCode": "workeridempty",
+            "message": "Worker id is empty.",
+            "statusCode": 400
+        },
+        "COMPANYNAME_EMPTY": {
+            "errorCode": "companynamerequired",
+            "message": "Company Name is required.",
+            "statusCode": 400
+        },
+        "DOCUMENTTYPE_EMPTY": {
+            "errorCode": "documenttyperequired",
+            "message": "Document Type is required.",
+            "statusCode": 400
+        },
+        "DOCUMENTNO_EMPTY": {
+            "errorCode": "documentnorequired",
+            "message": "Document No is required.",
+            "statusCode": 400
+        },
+        "BVN_EMPTY": {
+            "errorCode": "bvnrequired",
+            "message": "BVN is required.",
+            "statusCode": 400
+        },
+        "COMPANYPHONE_EMPTY": {
+            "errorCode": "companyphonerequired",
+            "message": "Company phone number is required.",
+            "statusCode": 400
+        },
+        "USERTYPE_EMPTY": {
+            "errorCode": "usertyperequired",
+            "message": "User Type is required.",
+            "statusCode": 400
+        },
+        "GENDER_EMPTY": {
+            "errorCode": "genderrequired",
+            "message": "Gender is required.",
+            "statusCode": 400
+        },
+        "PHONE_ALREADY_EXIST": {
+            "errorCode": "phonealreadyexist",
+            "message": "Phone number is already register with another users.",
+            "statusCode": 400
+        },
+        "PROVIDER_EMPTY": {
+            "errorCode": "providerrequired",
+            "message": "Provider ID is required.",
+            "statusCode": 400
+        },
+        "WRONG_PROVIDER_ID": {
+            "errorCode": "wrongproviderid",
+            "message": "Please provide correct provider id.",
+            "statusCode": 400
+        },
+        "WRONG_SERVICE_TYPE": {
+            "errorCode": "wrongservicetype",
+            "message": "Please provide correct service type.",
+            "statusCode": 400
+        },
+        "IPADDRESS_EMPTY": {
+            "errorCode": "ipaddressempty",
+            "message": "IP Address is empty.",
+            "statusCode": 400
+        },
+        "JOBID_EMPTY": {
+            "errorCode": "jobidempty",
+            "message": "Job id is empty.",
+            "statusCode": 400
+        },
+        "JOB_NOT_FOUND": {
+            "errorCode": "jobnotfound",
+            "message": "Job not found.",
+            "statusCode": 400
+        },
+        "SERVICE_LOCATION_NOT_FOUND": {
+            "errorCode": "servicelocationnotfound",
+            "message": "Service Location not found.",
+            "statusCode": 400
+        },
+        "JOB_ACCEPT_ERROR": {
+            "errorCode": "jobaccepterror",
+            "message": "Please accept this job first.",
+            "statusCode": 400
+        },
+        "INVALID_JOB_CODE": {
+            "errorCode": "invalidjobcode",
+            "message": "Wrong job verification code.",
+            "statusCode": 400
+        },
+        "REJECT_REASON_EMPTY": {
+            "errorCode": "rejectreasonempty",
+            "message": "Reject reason is empty.",
+            "statusCode": 400
+        },
+        "REJECT_REASON_FOR_SUCCESS": {
+            "errorCode": "rejectreasonforsuccess",
+            "message": "Completed job can not be reject.",
+            "statusCode": 400
+        },
+        "REJECT_REASON_FOR_START": {
+            "errorCode": "rejectreasonforstart",
+            "message": "Start job can not be reject.",
+            "statusCode": 400
+        },
+        "JOB_ALREADY_REJECT": {
+            "errorCode": "jobalreadyrejected",
+            "message": "Job already rejected.",
+            "statusCode": 400
+        },
+        "JOB_NOT_START_ERROR": {
+            "errorCode": "jobnotstarterror",
+            "message": "Job not started yet.",
+            "statusCode": 400
+        },
+        "RESCHDULE_REASON_FOR_SUCCESS": {
+            "errorCode": "rejectreasonforsuccess",
+            "message": "Completed job can not be reschedule.",
+            "statusCode": 400
+        },
+        "RESCHDULE_REASON_FOR_START": {
+            "errorCode": "rejectreasonforstart",
+            "message": "Start job can not be reschedule.",
+            "statusCode": 400
+        },
+        "JOB_REJECTED": {
+            "errorCode": "jobrejected",
+            "message": "Rejected job can not be reschedule.",
+            "statusCode": 400
+        },
+        "JOB_NOT_COMPLETE_EOOR": {
+            "errorCode": "jobnotcompleteerror",
+            "message": "Job not completed.",
+            "statusCode": 400
+        },
+        "ADDRESS_NOT_FOUND": {
+            "errorCode": "jobnotcompleteerroraddressnotfound",
+            "message": "Address not found.",
+            "statusCode": 400
+        },
+        "FIRSTNAME_EMPTY": {
+            "errorCode": "firstnameempty",
+            "message": "First name is empty.",
+            "statusCode": 400
+        },
+        "MESSAGE_EMPTY": {
+            "errorCode": "firstnameempty",
+            "message": "Message is empty.",
+            "statusCode": 400
+        },
+        "COUNTRY_ID_EMPTY": {
+            "errorCode": "countryidempty",
+            "message": "Country id is empty.",
+            "statusCode": 400
+        },
+        "STATE_ID_EMPTY": {
+            "errorCode": "sttateidempty",
+            "message": "State id is empty.",
+            "statusCode": 400
+        }
+    }
+}

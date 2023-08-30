@@ -1,0 +1,16 @@
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+
+const dqw_about_us_offer = new Schema({
+	image: String,
+    description:String,
+    creation_date:  Date,
+    creation_ip: String,
+    status: {
+        type: String,
+        enum: ["A","I","B","D"],            //A-Active, I-Inactive, B-Block, D-Delete
+        default: "A"
+    }
+}, {timestamps: true});
+
+module.exports = mongoose.model('dqw_about_us_offer', dqw_about_us_offer);
